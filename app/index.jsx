@@ -2,11 +2,26 @@ import { Pressable, Text, Image, StyleSheet, View } from "react-native";
 
 export default function Index() {
   return (
-    <View
-      style={styles.container}
-    >
+    <View style={styles.container}>
       <Image source={require('./pomodoro.png')}/>
       <View style={styles.actions}>
+        <View style={styles.context}>
+          <Pressable style={styles.contextButtonActive}>
+            <Text style={styles.contextButtonText}>
+              Foco
+            </Text>
+          </Pressable>
+          <Pressable>
+            <Text style={styles.contextButtonText}>
+              Pausa curta
+            </Text>
+          </Pressable>
+          <Pressable>
+            <Text style={styles.contextButtonText}>
+              Pausa longa
+            </Text>
+          </Pressable>
+        </View>
         <Text style={styles.timer}>
           25:00
         </Text>
@@ -45,6 +60,20 @@ const styles = StyleSheet.create({
     borderColor: '#144480',
     alignItems: 'center',
     gap: 32
+  },
+  context: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center'
+  },
+  contextButtonActive: {
+    backgroundColor: '#144480',
+    borderRadius: 8
+  },
+  contextButtonText: {
+    fontSize: 12.5,
+    color: '#fff',
+    padding: 8
   },
   timer: {
     fontSize: 54,
