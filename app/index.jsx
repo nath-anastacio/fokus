@@ -1,9 +1,31 @@
+import {useState} from 'react'
 import { Pressable, Text, Image, StyleSheet, View } from "react-native";
 
+const pomodoro = [
+  {
+    id: 'focus',
+    initialValue: 25,
+    image: require('./pomodoro.png')
+  },
+  {
+    id: 'short',
+    initialValue: 5,
+    image: require('./short.png')
+  },
+  {
+    id: 'long',
+    initialValue: 15,
+    image: require('./long.png')
+  }
+]
+
 export default function Index() {
+
+  const [timerType, setTimerType] = useState(pomodoro[0])
+
   return (
     <View style={styles.container}>
-      <Image source={require('./pomodoro.png')}/>
+      <Image source={timerType.image}/>
       <View style={styles.actions}>
         <View style={styles.context}>
           <Pressable style={styles.contextButtonActive}>
@@ -23,7 +45,7 @@ export default function Index() {
           </Pressable>
         </View>
         <Text style={styles.timer}>
-          25:00
+          {new Date(timerType.initialValue * 1000).toLocaleTimeString('pt-br', {minute: '2-digit', second: '2-digit'})}
         </Text>
         <Pressable style={styles.button}>
           <Text style={styles.buttonText}>
