@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# Fokus - Pomodoro app ⏰🍅
+![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+Aplicativo de gerenciamento de tempo criado com React Native + [Expo](https://expo.dev). Projetado para ajudar a melhorar a produtividade de usuário alternando entre ciclos de foco e descanso.
 
-1. Install dependencies
+## 📲 Funcionalidades:
+- ✅ Temporizador pomodoro com Foco/Pausa curta/Pausa longa;
+- ✅ Interface limpa e intuitiva;
+
+## 🚀 Tecnologias usadas:
+- React Native — framework para desenvolvimento de apps mobile nativos com React.
+- Expo — ferramenta que simplifica o desenvolvimento e a build de apps com React Native.
+- JavaScript — linguagem principal utilizada no app.
+- StyleSheet nativo — para estilização dos componentes.
+
+## 🖼 Demonstração do projeto:
+
+## 📚 Principais aprendizados:
+- 📌 Entendimento prático da estrutura de projetos com React Native e Expo.
+- 📌 Estilização responsiva com StyleSheet e Flexbox no mobile.
+- 📌 Uso prático do useState para gerenciar o estado de tempo, modos (foco/pausa) e controles do timer.
+- 📌 Utilização do .map() para renderizar listas de elementos dinamicamente.
+- 📌 Prática com feedback visual.
+- 📌 Manipulação de horários com new Date().
+
+## 📦 Instalação 
+
+1. Instalar dependências:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Inicie o aplicativo:
 
    ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+No terminal, você encontrará as seguintes alternativas para rodar o aplicativo:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 👩‍💻 Autora:
+Feito por ✨[Nathália Anastácio](https://github.com/nath-anastacio)✨
+### 💬 Você pode me encontrar em:
+<div>
+  <a href="https://www.linkedin.com/in/nathalia-anastacio/" target="_blank"><img src= "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"/> </a>
+  <a href = "mailto:nathanastacio@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
