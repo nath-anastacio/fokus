@@ -15,6 +15,9 @@ Aplicativo de gerenciamento de tempo criado com React Native + [Expo](https://ex
 - StyleSheet nativo — para estilização dos componentes.
 
 ## 🖼 Demonstração do projeto:
+<p align="center">
+  <img src="demonstracao_do_app.gif" alt="Demo do app Pomodoro" width="300"/>
+</p>
 
 ## 📚 Principais aprendizados:
 - 📌 Entendimento prático da estrutura de projetos com React Native e Expo.
@@ -47,7 +50,9 @@ No terminal, você encontrará as seguintes alternativas para rodar o aplicativo
 
 
 ## 👩‍💻 Autora:
-Feito por ✨[Nathália Anastácio](https://github.com/nath-anastacio)✨
+
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/172634421?v=4" width=115><br><sub>Nathália Anastácio</sub>](https://github.com/nath-anastacio)
+
 ### 💬 Você pode me encontrar em:
 <div>
   <a href="https://www.linkedin.com/in/nathalia-anastacio/" target="_blank"><img src= "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"/> </a>
