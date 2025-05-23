@@ -3,6 +3,7 @@ import { Pressable, Text, Image, StyleSheet, View } from "react-native";
 import { FokusButton } from "../components/FokusButton/index";
 import { ActionButton } from "../components/ActionButton/index";
 import { Timer } from "../components/Timer/index";
+import { IconPause, IconPlay } from "../components/Icons/index";
 
 const pomodoro = [
   {
@@ -87,6 +88,7 @@ export default function Index() {
         <Timer totalSeconds={seconds} />
         <FokusButton
           title={timerRunning ? 'Pausar' : 'Começar'}
+          icon={timerRunning ? <IconPause/> : <IconPlay/>}
           onPress={toggleTimer}
         />
       </View>
