@@ -1,5 +1,5 @@
 # Fokus - Pomodoro app ⏰🍅
-![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
 
 Aplicativo de gerenciamento de tempo criado com React Native + [Expo](https://expo.dev). Projetado para ajudar a melhorar a produtividade de usuário alternando entre ciclos de foco e descanso.
